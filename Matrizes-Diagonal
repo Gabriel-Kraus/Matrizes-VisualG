@@ -1,0 +1,31 @@
+Algoritmo "Matriz"
+
+Var
+    i, j: inteiro
+    A: Vetor [1..3, 1..3] de inteiro
+
+Inicio
+   Escreva ("Entre com os valores da Matriz A")
+   Para i de 1 ate 3 faca
+      Escreval ("")
+      Para j de 1 ate 3 faca
+         Leia (A[i,j])
+      FimPara
+   FimPara
+
+   // Exibição completa da matriz
+   Escreval ("Matriz A:")
+   Para i de 1 ate 3 faca
+      Para j de 1 ate 3 faca
+         Escreva (A[i,j], " ")
+      FimPara
+      Escreval ("") // Quebra de linha após cada linha da matriz
+   FimPara
+
+   // Exibição da diagonal da matriz
+   Escreval ("Diagonal da Matriz A:")
+   Para i de 1 ate 3 faca
+      Escreva (A[i,i], " ")  // Exibe o elemento na diagonal (i == j)
+   FimPara
+   Escreval ("")
+Fimalgoritmo
